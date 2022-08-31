@@ -1,2 +1,5 @@
 a = 15
-print(a)
+b = 15
+c = 15
+sum = a+b+c
+print(sum)
