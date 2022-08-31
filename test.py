@@ -5,4 +5,3 @@ sum = a+b+c
 print(sum)
 print ("Hello")
 print ("ทดสอบ Github")
-print ("ทดสอบ Github")
