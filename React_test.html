@@ -1,9 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+<!DOCTYPE html>
+<html>
 
-function Hello(props) {
-  return <h1>Hello World!</h1>;
+<body>
+  
+<script>
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Hello />);
+const mycar = new Car("Ford");
+
+document.write(mycar.brand);
+</script>
+
+</body>
